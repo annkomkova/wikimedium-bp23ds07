@@ -1,0 +1,17 @@
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+.menubar img {
+  height: 20px;
+}
+.menubar li {
+  display: inline;
+  padding: 0 15px;
+}
+.menubar a {
+  text-decoration: none;
+  color: #777;
+}

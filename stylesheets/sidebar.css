@@ -1,0 +1,30 @@
+.sidebar {
+  width: 300px;
+  display: block;
+  position: fixed;
+  top: 40px;
+  left: 20px;
+  overflow: hidden;
+  opacity: 0.2;
+  transition: all 0.8s ease-out;
+}
+.sidebar:hover {
+  opacity: 1;
+  transition: all 0.1s ease-out;
+}
+.sidebar h2 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.sidebar a {
+  text-decoration: none;
+}
+.sidebar li {
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 20px;
+}
+.sidebar ol > ol {
+  color: #777;
+  margin-left: 10px;
+}
