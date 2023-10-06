@@ -1,0 +1,37 @@
+section > div {
+  width: 50%;
+  /* background: red;
+  border: 4px solid black; */
+  margin-bottom: 25px;
+}
+section {
+  display: flex;
+  /* border: 4px solid blue; */
+}
+section h1,
+section p {
+  width: 560px;
+  margin-left: 108px;
+}
+section h1 {
+  font-size: 40px;
+  line-height: 46px;
+  margin-top: 134px;
+  margin-bottom: 26px;
+}
+section p {
+  font-size: 26px;
+  line-height: 36px;
+}
+section img {
+  margin: 58px 0 0 35px;
+}
+section:nth-of-type(2) h1 {
+  margin: 80px 0 26px 36px;
+}
+section:nth-of-type(2) p {
+  margin: 0 0 0 36px;
+}
+section:nth-of-type(3) div:nth-of-type(1) {
+  margin-top: -67px;
+}

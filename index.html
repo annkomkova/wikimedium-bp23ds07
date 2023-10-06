@@ -11,8 +11,8 @@
     <nav class="menubar">
       <img src="images/logo.svg" alt="логотип сайта викимедиум">
       <ul>
-        <li><a href="">Главная</a></li>
-        <li><a href="">О нас</a></li>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О нас</a></li>
       </ul>
     </nav>
     <!-- меню сайдбара  -->
@@ -408,7 +408,7 @@
           $(this).on('click', function(e) { 
             e.preventDefault(); 
             var scrollTo = $(this).attr('href'); 
-            var whitespace = scrollTo == '#s1' ? 70 : 30;
+            var whitespace = scrollTo == '#1_1' ? 110 : 30;
             $('html,body').animate({ 
               scrollTop: $(scrollTo).offset().top - whitespace 
             }, 1000);

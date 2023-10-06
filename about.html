@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>О проекте</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <style>
+      html {
+        /* background: grey; */
+        display: block;
+        height: 3120px;
+      }
+      body {
+        width: 1440px;
+        background: white;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+      }
+      body::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3120px;
+        content: '';
+        /* background: url(images/1440.png); */
+        opacity: 0.2;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- шапка сайта -->
+    <nav class="menubar">
+      <img src="images/logo.svg" alt="логотип сайта викимедиум" />
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О нас</a></li>
+      </ul>
+    </nav>
+    <!-- контент -->
+    <section>
+      <div>
+        <h1>Наглядный пример, чтобы учиться веб-вёрстке</h1>
+        <p>
+          Разработан для изучения основ веб-вёрстки, языка гипертекстовой
+          разметки HTML и каскадных таблиц стилей CSS
+        </p>
+      </div>
+      <div>
+        <img
+          src="images/about1.png"
+          alt="мокапы айфона и макбука с открытым проектом wikimedium"
+        />
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <img
+          src="images/about2.png"
+          alt="мокапы планшета с открытым проектом wikimedium"
+        />
+      </div>
+      <div>
+        <h1>С нуля до первого сайта под компьютеры, смартфоны и планшеты</h1>
+        <p>
+          Чтобы начать изучать веб-вёрстку на этом проекте, не требуется
+          каких-то специальных знаний, кроме базового умения пользоваться
+          компьютером
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1>Реальный проект, реальный рабочий процесс</h1>
+        <p>
+          Обучение приближено к работе в реальной жизни, работа разбита на этапы
+          от типографики, создания меню и использования эффектов, до адаптации
+          под мобильные устройства и использования JavaScript скриптов
+        </p>
+      </div>
+      <div>
+        <img
+          src="images/about3.png"
+          alt="скрин десктопной версии проекта из браузера"
+        />
+      </div>
+    </section>
+  </body>
+</html>
