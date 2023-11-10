@@ -9,17 +9,7 @@ a {
 * {
   box-sizing: border-box;
 }
-article h1,
-article h2,
-article h3,
-article h4,
-article h5,
-article p,
-article ul,
-article ol,
-article em,
-article hr,
-article blockquote {
+article * {
   width: 700px;
   margin: 0 auto;
 }
